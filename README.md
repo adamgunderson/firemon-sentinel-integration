@@ -33,7 +33,7 @@ When FireMon detects configuration changes on network devices, it generates sysl
 1. Clone this repository or download the files to your syslog-ng server:
 
 ```bash
-git clone https://github.com/your-repo/firemon-sentinel-integration.git
+git clone https://github.com/adamgunderson/firemon-sentinel-integration.git
 cd firemon-sentinel-integration
 ```
 
@@ -179,7 +179,3 @@ log {
 - Consider encrypting sensitive log files
 - In production, enable SSL verification by setting `verify_ssl = true`
 - Implement proper error handling to prevent information leakage
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
